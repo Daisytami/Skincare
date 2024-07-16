@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block head %}
+    <style>
+        body {
+            background-image: url("{% static 'images/home.jpeg' %}");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+        }
+    </style>
+
+{% endblock %}
+
+{% block content %}
+    <title>Home</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+    <h1>Sheer Glow</h1>
+    <h1>
+Turning dreams into realities, and shaping the future one innovation at a time
+</h1>
+{% endblock %}
+
+
